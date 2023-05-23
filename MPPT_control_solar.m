@@ -1,4 +1,4 @@
-function duty = MPPT_Kontrol( V, I,deltaD_in)
+function duty = MPPT_control( V, I,deltaD_in)
 
 duty_init = 0.05;
 duty_min=0;
